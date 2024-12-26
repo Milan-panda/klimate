@@ -34,7 +34,7 @@ const WeatherDashboard = () => {
   };
 
   if (locationLoading) {
-    return WeatherSkeleton
+    return <WeatherSkeleton />
   }
 
   if (locationError) {
